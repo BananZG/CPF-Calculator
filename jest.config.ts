@@ -3,6 +3,7 @@ import { defaults as tsjPreset } from 'ts-jest/presets';
 
 const config: InitialOptionsTsJest = {
   rootDir: 'src',
+  coverageDirectory: '../report',
   preset: 'ts-jest',
   testEnvironment: 'node',
   transform: {
